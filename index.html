@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="NOIR Studio — premium photography portfolio">
+<title>NOIR — Photography Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="preloader"><div class="preloader-word">NOIR</div><div class="loader"><i></i></div></div>
+<div class="grain"></div><div class="light-streaks"></div><div class="cursor"><span></span></div>
+
+<header class="header">
+  <a class="logo" href="#home">NOIR<span>.</span></a>
+  <div class="header-center">PHOTOGRAPHY / VISUAL STORIES</div>
+  <button class="menu-trigger" aria-label="Otwórz menu"><span></span><span></span></button>
+</header>
+
+<aside class="menu">
+  <div class="menu-top"><span>MENU / 01</span><button class="menu-close">CLOSE ×</button></div>
+  <div class="menu-links">
+    <a href="#home"><small>01</small><b>Start</b><i>↗</i></a>
+    <a href="#work"><small>02</small><b>Portfolio</b><i>↗</i></a>
+    <a href="#journal"><small>03</small><b>Selected stories</b><i>↗</i></a>
+    <a href="#about"><small>04</small><b>O mnie</b><i>↗</i></a>
+    <a href="#contact"><small>05</small><b>Kontakt</b><i>↗</i></a>
+  </div>
+  <div class="menu-bottom"><span>POLAND / WORLDWIDE</span><div><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">IG ↗</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">FB ↗</a></div></div>
+</aside>
+
+<main>
+<section id="home" class="hero section">
+  <div class="hero-copy">
+    <div class="eyebrow">01 — VISUAL IDENTITY / PHOTOGRAPHY</div>
+    <h1>Frames<br>with <em>feeling.</em></h1>
+    <p>Obrazy budowane ze światła, przestrzeni i emocji. Fotografia komercyjna, editorial, portret i historie, które mają własny język.</p>
+    <div class="hero-actions"><a class="btn magnetic" href="#work">Explore the work <span>↓</span></a><a class="under" href="#about">About the artist ↗</a></div>
+  </div>
+  <div class="hero-art">
+    <div class="halo"></div><div class="hero-frame"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=88" alt="Portrait"></div>
+    <div class="frame-meta"><span>PORTRAIT / 01</span><span>2026</span></div>
+    <div class="floating f1">LIGHT<br><b>IS THE SUBJECT</b></div><div class="floating f2">RAW / 001</div>
+  </div>
+  <div class="hero-bottom"><span>SCROLL TO DISCOVER</span><span>WARSAW — 52°13′N</span></div>
+</section>
+
+<section id="work" class="section work">
+  <div class="section-intro">
+    <div><div class="eyebrow">02 — SELECTED WORK</div><h2>Selected<br><em>frames.</em></h2></div>
+    <p>Pełne portfolio znajduje się tutaj — osobno od strony głównej. Filtruj projekty, otwieraj kadry i buduj własną prezentację.</p>
+  </div>
+  <div class="category-nav">
+    <button class="active" data-filter="all">ALL / 24</button><button data-filter="portrait">PORTRAIT</button><button data-filter="fashion">FASHION</button><button data-filter="wedding">WEDDING</button><button data-filter="automotive">AUTOMOTIVE</button>
+  </div>
+  <div class="portfolio-grid" id="portfolio"></div>
+</section>
+
+<section id="journal" class="section journal">
+  <div class="eyebrow">03 — SELECTED STORIES</div>
+  <div class="journal-head"><h2>Beyond<br><em>the frame.</em></h2><p>Nie tylko zdjęcia. Projekty opowiadające o ludziach, miejscach i atmosferze.</p></div>
+  <div class="story-grid">
+    <article><div class="story-image s1"></div><div><small>01 / EDITORIAL</small><h3>Night architecture</h3><span>Warsaw / 2026 ↗</span></div></article>
+    <article><div class="story-image s2"></div><div><small>02 / FASHION</small><h3>After the light</h3><span>Paris / 2026 ↗</span></div></article>
+    <article><div class="story-image s3"></div><div><small>03 / AUTOMOTIVE</small><h3>Motion / silence</h3><span>Berlin / 2026 ↗</span></div></article>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="about-photo"><div class="about-img"></div><span>THE PERSON<br>BEHIND THE LENS</span></div>
+  <div class="about-copy">
+    <div class="eyebrow">04 — ABOUT THE ARTIST</div>
+    <h2>Make it<br><em>feel real.</em></h2>
+    <p class="lead">Mam na imię <strong>Twoje Imię</strong>. Fotografuję ludzi, marki i momenty, w których światło robi całą robotę.</p>
+    <p>Pracuję spokojnie, świadomie i bez sztucznego pozowania. Zależy mi na obrazie, który ma fakturę, atmosferę i własny charakter — niezależnie od tego, czy jest to kampania, portret, ślub czy samochód.</p>
+    <div class="stats"><div><b>08+</b><small>YEARS</small></div><div><b>240+</b><small>PROJECTS</small></div><div><b>17</b><small>CITIES</small></div></div>
+    <a class="under" href="#contact">Start a conversation ↗</a>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="eyebrow">05 — CONTACT</div>
+  <h2>Let's create<br><em>something lasting.</em></h2>
+  <div class="contact-layout">
+    <div><p>Napisz o projekcie, terminie i lokalizacji. Odpowiem z propozycją dopasowaną do Twojej wizji.</p><a class="mail" href="mailto:hello@twojadomena.pl">hello@twojadomena.pl ↗</a><div class="social"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook ↗</a></div></div>
+    <form id="contactForm">
+      <label>NAME<input name="name" required placeholder="Twoje imię / firma"></label>
+      <label>EMAIL<input name="email" type="email" required placeholder="twoj@email.pl"></label>
+      <label>PROJECT<select name="project"><option>Portrait</option><option>Fashion / Editorial</option><option>Wedding</option><option>Automotive</option><option>Commercial</option><option>Other</option></select></label>
+      <label>MESSAGE<textarea name="message" required rows="4" placeholder="Opowiedz o projekcie..."></textarea></label>
+      <button class="btn magnetic" type="submit">Send inquiry <span>↗</span></button><small id="status"></small>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 NOIR STUDIO</span><span>LIGHT / PEOPLE / STORIES</span><a href="#home">BACK TO TOP ↑</a></footer>
+
+<div class="lightbox" id="lightbox"><button class="lb-close">×</button><button class="lb-prev">←</button><div><img id="lbImg" alt=""><p><span id="lbCat"></span><b id="lbTitle"></b></p></div><button class="lb-next">→</button></div>
+<script src="script.js"></script>
+</body>
+</html>
